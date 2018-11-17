@@ -13,7 +13,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the app.js code
-      - mocha HelloWorld.js
+      - mocha app.js
   post_build:
     commands:
       - echo Build completed on `date`
